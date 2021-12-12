@@ -1,5 +1,3 @@
-//Muhammad Shariq
-//Abdur Rehman
 (define-non-fungible-token non-fungible-token int)
 (define-map tokens-spender((token_id int))((spender principal)))
 (define-map tokens-count((owner principal))((count int)))
